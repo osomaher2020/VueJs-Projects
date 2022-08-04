@@ -1,0 +1,8 @@
+{
+    "books": [
+        {"id": 1, "title": "book1", "auther": "aya"},
+        {"id": 2, "title": "book2", "auther": "sola"},
+        {"id": 3, "title": "book3", "auther": "smsm"}
+    ],
+    "posts": []
+}
