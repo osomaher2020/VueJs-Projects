@@ -1,0 +1,7 @@
+{
+    "posts": [
+        { "id": 1, "title": "post1", "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit." },
+        { "id": 2, "title": "post2", "content": "Dolore esse veniam aliquid ad! Temporibus ex saepe, odio, delectus quas adipisci necessitatibus repellendus vel nulla quaerat qui." },
+        { "id": 3, "title": "post3", "content": "Quod similique necessitatibus nam.  Quod similique necessitatibus nam." }
+    ]
+}

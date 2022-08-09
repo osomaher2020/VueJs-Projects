@@ -5,7 +5,7 @@
     <router-link :to="{ name: 'About2' }">About with name</router-link>
 
     <router-link v-for="page in pages" :key="page" :to="{name: page}">
-      {{ page }} 
+      {{ page }}
     </router-link>
 
     <router-link :to="{name: 'Jobs'}">Jobs</router-link>
@@ -17,7 +17,9 @@
     <button @click="forward">forward</button>
   </div>
 
+  <!-- View -->
   <router-view/>
+
 </template>
 
 <script>

@@ -3,7 +3,7 @@
   <h1 v-if="job">
       Details of job_title: {{ job.title }}
   </h1>
-  <p v-else>Loading ...</p>
+  <p v-else>{{ (error)? error : "Loading ..." }}</p>
 </template>
 
 <script>
@@ -16,7 +16,8 @@ export default {
     // },
     data() {
         return {
-            job: null
+            job: null,
+            error: ''
         }
     },
     mounted(){
@@ -28,7 +29,10 @@ export default {
                 (data) => this.job = data
             )
             .catch(
-                (err) => console.log(err.message)
+                (err) => {
+                    this.error = err.message
+                    console.log(err.message)
+                }
             )
     }
 }

@@ -5,7 +5,7 @@ const ListItem = {
 
 const SelectOption = {
     props: ['my_option'],
-    template: '<option>{{ my_option.text }}</option>'
+    template: '<option value={{my_option.id}}>{{ my_option.text }}</option>'
 }
 
 const ShoppingCart = {
